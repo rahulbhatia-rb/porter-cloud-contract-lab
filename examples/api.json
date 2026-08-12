@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "region": "us-east-1",
+  "cpu_millicores": 1000,
+  "memory_mb": 2048,
+  "replicas": 2,
+  "min_replicas": 2,
+  "max_replicas": 20,
+  "public": true,
+  "gpu": false,
+  "storage_gb": 20,
+  "labels": {"tier": "production"}
+}
